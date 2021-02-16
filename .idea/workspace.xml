@@ -26,14 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ae3b287-6169-404c-b618-cb01344a8b3e" name="Default Changelist" comment="用户注册表单">
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_errors.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/weibo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weibo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_messages.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613461245431</updated>
-      <workItem from="1613461262876" duration="11685000" />
+      <workItem from="1613461262876" duration="12040000" />
     </task>
     <task id="LOCAL-00001" summary="用户注册表单">
       <created>1613471819753</created>
@@ -263,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613459018837" />
-    <state x="776" y="439" key="NewPhpFileDialog" timestamp="1613490483919">
+    <state x="776" y="439" key="NewPhpFileDialog" timestamp="1613491571344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="776" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613490483919" />
+    <state x="776" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613491571344" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1613489614704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
