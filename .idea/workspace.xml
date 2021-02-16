@@ -16,12 +16,17 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ae3b287-6169-404c-b618-cb01344a8b3e" name="Default Changelist" comment="">
+    <list default="true" id="6ae3b287-6169-404c-b618-cb01344a8b3e" name="Default Changelist" comment="用户注册表单">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,8 +182,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613461245431</updated>
-      <workItem from="1613461262876" duration="5902000" />
+      <workItem from="1613461262876" duration="7525000" />
     </task>
+    <task id="LOCAL-00001" summary="用户注册表单">
+      <created>1613471819753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613471819753</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,18 +202,33 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="用户注册表单" />
+    <MESSAGE value="修改了模型命名空间问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户注册表单" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1613452837562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613452837562" />
+    <state x="797" y="414" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1613471978038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="797" y="414" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613471978038" />
     <state width="1877" height="296" key="GridCell.Tab.0.bottom" timestamp="1613459018837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -221,5 +249,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613469313267" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1613471849170">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613471849170" />
   </component>
 </project>
