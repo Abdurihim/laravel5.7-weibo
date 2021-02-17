@@ -19,8 +19,10 @@
             <input type="password" id="password" name="password" class="form-control" value="{{old("password")}}">
           </div>
           <div class="form-group">
-            <label for="test">测试：</label>
-            <input type="text" id="password" name="test" class="form-control" value="{{old("password")}}">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" name="remember" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">记住我</label>
+            </div>
           </div>
           <button type="submit" class="btn btn-primary">登录</button>
         </form>
