@@ -14,7 +14,7 @@ class UsersController extends Controller
     public function __construct()
     {
         $this->middleware('auth', [
-            'except' => ['show', 'create', 'store', 'index','confirmEmail']
+            'except' => ['show', 'create', 'store', 'index', 'confirmEmail']
         ]);
         $this->middleware('guest', [
             'only' => ['create']
@@ -36,8 +36,9 @@ class UsersController extends Controller
 
     public function show(User $user)
     {
-//        dd(compact("user"));
-        return view("users.show", compact("user"));
+        $statuses = $user->statuses()->orderBy('created_at', 'desc')->paginate(10);
+
+        return view("users.show", compact("user","statuses"));
     }
 
     public function store(Request $request)
@@ -102,7 +103,8 @@ class UsersController extends Controller
         return redirect()->route('users.show', [$user]);
     }
 
-    public function sendEmailConfirmationTo($user){
+    public function sendEmailConfirmationTo($user)
+    {
         $view = 'emails.confirm';
         $data = compact('user');
         $from = 'summer@example.com';
