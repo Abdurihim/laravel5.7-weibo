@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Status;
 use Illuminate\Http\Request;
 
 class StatusesController extends Controller
@@ -11,13 +12,24 @@ class StatusesController extends Controller
     {
         $this->middleware("auth");
     }
-    public function create(Request $request) {
-        $this->validate($request,[
+
+    public function create(Request $request)
+    {
+        $this->validate($request, [
             'content' => 'required|max:140'
 
         ]);
         auth()->user()->statuses()->create(compact($request['content']));
-        session()->flash("success","发布成功");
+        session()->flash("success", "发布成功");
         return redirect()->back();
     }
+
+    public function destroy(Status $status)
+    {
+        $this->authorize('destroy', $status);
+        $status->delete();
+        session()->flash('success', '微博已被成功删除！');
+        return redirect()->back();
+    }
+
 }
