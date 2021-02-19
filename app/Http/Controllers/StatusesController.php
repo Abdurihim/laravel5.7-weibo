@@ -7,4 +7,17 @@ use Illuminate\Http\Request;
 class StatusesController extends Controller
 {
     //
+    public function __construct()
+    {
+        $this->middleware("auth");
+    }
+    public function create(Request $request) {
+        $this->validate($request,[
+            'content' => 'required|max:140'
+
+        ]);
+        auth()->user()->statuses()->create(compact($request['content']));
+        session()->flash("success","发布成功");
+        return redirect()->back();
+    }
 }
